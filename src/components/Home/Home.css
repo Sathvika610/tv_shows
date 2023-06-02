@@ -1,0 +1,26 @@
+.Home {
+    padding: 20px;
+  }
+  
+  .show-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .show-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .show-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .show-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
